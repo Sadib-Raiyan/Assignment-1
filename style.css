@@ -111,10 +111,10 @@ body {
 }
 
 .cardSection {
-    margin-top: 50px;
-    padding: 0 100px 50px 120px;
-    display: flex;
-    float: left;
+  margin-top: 50px;
+  padding: 0 100px 50px 120px;
+  display: flex;
+  float: left;
 }
 
 .cards img {
@@ -141,4 +141,54 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
   font-weight: 400;
+}
+.countWrapper {
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  margin-left: 13%;
+  width: 75%;
+  display: flex;
+  float: left;
+  -webkit-box-shadow: 0px 0px 12px 3px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 0px 12px 3px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0px 12px 3px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+}
+.countWrapper div {
+  padding-left: 11%;
+  margin-right: 20px;
+}
+.countWrapper h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+}
+.countWrapper p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.footer {
+    padding-top: 20px;
+    padding-bottom: 80px;
+  text-align: center;
+  width: 100%;
+  float: left;
+  background-color: #0b0d17;
+}
+.footerWrapper h3 {
+  font-family: "Manrope", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #5B5B5B;
+}
+.footerWrapper span {
+  color: #ed2e49;
+}
+.footerWrapper p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
 }
