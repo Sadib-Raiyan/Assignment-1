@@ -1,0 +1,144 @@
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Manrope', sans-serif; */
+body {
+  margin: 0;
+}
+.toppart {
+  display: flex;
+  margin-top: 50px;
+}
+.leftpart {
+  width: 45%;
+  margin-left: 5%;
+}
+.leftpart span {
+  color: #ed2e49;
+}
+.leftpart h2 {
+  margin-bottom: 0px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 60px;
+  font-weight: 600;
+}
+.leftpart p {
+  padding-bottom: 20px;
+  display: inline-block;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #828282;
+}
+
+.rightpart {
+  margin-left: 5%;
+  width: 40%;
+}
+.orderButton {
+  padding: 15px;
+  text-decoration: none;
+  color: white;
+  background: rgb(79, 91, 251);
+  background: linear-gradient(
+    229deg,
+    rgba(79, 91, 251, 1) 0%,
+    rgba(237, 46, 73, 1) 35%
+  );
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  border-radius: 50px;
+}
+.rightPartImage {
+  float: right;
+  width: 100%;
+}
+
+.aboutMe {
+  min-height: 500px;
+  margin-top: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-image: url(images/shapes/Frame\ 58.png);
+  background-repeat: no-repeat;
+}
+.secondSectionleft {
+  display: flex;
+  width: 45%;
+  float: left;
+}
+.secondSectionleft img {
+  margin-left: 10%;
+}
+.secondsectionRight h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: #707070;
+}
+.secondsectionRight p {
+  padding-bottom: 20px;
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #18191f;
+  word-spacing: 3px;
+}
+
+.secondsectionRight {
+  width: 45%;
+  float: left;
+}
+.secondsectionRight span {
+  color: #ed2e49;
+}
+.myRecipies {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.myRecipies h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: #18191f;
+}
+.myRecipies p {
+  padding: 0 300px 0 300px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #252525;
+  word-spacing: 3px;
+}
+
+.cardSection {
+    margin-top: 50px;
+    padding: 0 100px 50px 120px;
+    display: flex;
+    float: left;
+}
+
+.cards img {
+  width: 100%;
+}
+
+.cards {
+  margin-right: 20px;
+  margin-left: 14px;
+  padding: 15px;
+  float: left;
+  -webkit-box-shadow: 0px 0px 12px 3px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 0px 12px 3px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0px 12px 3px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+}
+.cards h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: #252525;
+}
+.cards p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
